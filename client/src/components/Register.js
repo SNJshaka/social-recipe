@@ -55,7 +55,7 @@ const Register = ({ switchForm }) => {
         <button type="submit">Register</button>
       </form>
 
-      {/* Custom Modal - Only render if registrationSuccess is true */}
+      
       {registrationSuccess && (
         <div className={`modal ${modalOpen ? 'show' : ''}`} id="customModal">
           <div className="modal-content">
